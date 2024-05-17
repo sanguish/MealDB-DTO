@@ -31,9 +31,7 @@ struct ContentView: View {
                             .aspectRatio(contentMode: .fill)
 
                     } placeholder: {
-
                         ProgressView()
-
                     }
                     .clipShape(.rect(cornerRadius: 16.0))
                     .clipped()
