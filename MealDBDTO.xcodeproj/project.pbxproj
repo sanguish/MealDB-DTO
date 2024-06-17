@@ -16,7 +16,23 @@
 		C84A1BF32BF7E7DA00E41A94 /* RecipeDetailDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = C84A1BF02BF7E7DA00E41A94 /* RecipeDetailDTO.swift */; };
 		C84A1BF42BF7E7DA00E41A94 /* RecipesDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = C84A1BF12BF7E7DA00E41A94 /* RecipesDTO.swift */; };
 		C84A1BF62BF7F7CE00E41A94 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C84A1BF52BF7F7CE00E41A94 /* ViewModel.swift */; };
+		C888D7372C20098D002BDB26 /* RecipeDetailDTOTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C888D7362C20098D002BDB26 /* RecipeDetailDTOTests.swift */; };
+		C888D7442C201320002BDB26 /* RecipesDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = C84A1BF12BF7E7DA00E41A94 /* RecipesDTO.swift */; };
+		C888D7462C2014A8002BDB26 /* RecipeDetailDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = C84A1BF02BF7E7DA00E41A94 /* RecipeDetailDTO.swift */; };
+		C888D7472C2014A8002BDB26 /* RecipeDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = C84A1BEE2BF7E7D100E41A94 /* RecipeDetail.swift */; };
+		C8DA9B882C20B07E00281A54 /* JSONTestCases.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8DA9B872C20B07500281A54 /* JSONTestCases.swift */; };
+		C8DA9B8A2C20BBE400281A54 /* RecipeDetailTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8DA9B892C20BBE400281A54 /* RecipeDetailTests.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C888D7382C20098D002BDB26 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C84A1BCF2BF7E73500E41A94 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C84A1BD62BF7E73500E41A94;
+			remoteInfo = MealDBDTO;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		C84A1BD72BF7E73500E41A94 /* MealDBDTO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MealDBDTO.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -30,10 +46,21 @@
 		C84A1BF02BF7E7DA00E41A94 /* RecipeDetailDTO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecipeDetailDTO.swift; sourceTree = "<group>"; };
 		C84A1BF12BF7E7DA00E41A94 /* RecipesDTO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecipesDTO.swift; sourceTree = "<group>"; };
 		C84A1BF52BF7F7CE00E41A94 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		C888D7342C20098D002BDB26 /* MealDBDTOTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MealDBDTOTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C888D7362C20098D002BDB26 /* RecipeDetailDTOTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetailDTOTests.swift; sourceTree = "<group>"; };
+		C8DA9B872C20B07500281A54 /* JSONTestCases.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONTestCases.swift; sourceTree = "<group>"; };
+		C8DA9B892C20BBE400281A54 /* RecipeDetailTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetailTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		C84A1BD42BF7E73500E41A94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C888D7312C20098D002BDB26 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -47,6 +74,7 @@
 			isa = PBXGroup;
 			children = (
 				C84A1BD92BF7E73500E41A94 /* MealDBDTO */,
+				C888D7352C20098D002BDB26 /* MealDBDTOTests */,
 				C84A1BD82BF7E73500E41A94 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -55,6 +83,7 @@
 			isa = PBXGroup;
 			children = (
 				C84A1BD72BF7E73500E41A94 /* MealDBDTO.app */,
+				C888D7342C20098D002BDB26 /* MealDBDTOTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -116,6 +145,16 @@
 			path = DTOs;
 			sourceTree = "<group>";
 		};
+		C888D7352C20098D002BDB26 /* MealDBDTOTests */ = {
+			isa = PBXGroup;
+			children = (
+				C888D7362C20098D002BDB26 /* RecipeDetailDTOTests.swift */,
+				C8DA9B892C20BBE400281A54 /* RecipeDetailTests.swift */,
+				C8DA9B872C20B07500281A54 /* JSONTestCases.swift */,
+			);
+			path = MealDBDTOTests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -136,6 +175,24 @@
 			productReference = C84A1BD72BF7E73500E41A94 /* MealDBDTO.app */;
 			productType = "com.apple.product-type.application";
 		};
+		C888D7332C20098D002BDB26 /* MealDBDTOTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C888D73A2C20098D002BDB26 /* Build configuration list for PBXNativeTarget "MealDBDTOTests" */;
+			buildPhases = (
+				C888D7302C20098D002BDB26 /* Sources */,
+				C888D7312C20098D002BDB26 /* Frameworks */,
+				C888D7322C20098D002BDB26 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C888D7392C20098D002BDB26 /* PBXTargetDependency */,
+			);
+			name = MealDBDTOTests;
+			productName = MealDBDTOTests;
+			productReference = C888D7342C20098D002BDB26 /* MealDBDTOTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -143,11 +200,15 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1540;
+				LastSwiftUpdateCheck = 1600;
 				LastUpgradeCheck = 1600;
 				TargetAttributes = {
 					C84A1BD62BF7E73500E41A94 = {
 						CreatedOnToolsVersion = 15.4;
+					};
+					C888D7332C20098D002BDB26 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = C84A1BD62BF7E73500E41A94;
 					};
 				};
 			};
@@ -165,6 +226,7 @@
 			projectRoot = "";
 			targets = (
 				C84A1BD62BF7E73500E41A94 /* MealDBDTO */,
+				C888D7332C20098D002BDB26 /* MealDBDTOTests */,
 			);
 		};
 /* End PBXProject section */
@@ -177,6 +239,13 @@
 				C84A1BE22BF7E73600E41A94 /* Preview Assets.xcassets in Resources */,
 				C84A1BED2BF7E7A100E41A94 /* RecipeDetail.json in Resources */,
 				C84A1BDF2BF7E73600E41A94 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C888D7322C20098D002BDB26 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -196,7 +265,28 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C888D7302C20098D002BDB26 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C888D7372C20098D002BDB26 /* RecipeDetailDTOTests.swift in Sources */,
+				C8DA9B882C20B07E00281A54 /* JSONTestCases.swift in Sources */,
+				C888D7442C201320002BDB26 /* RecipesDTO.swift in Sources */,
+				C888D7462C2014A8002BDB26 /* RecipeDetailDTO.swift in Sources */,
+				C888D7472C2014A8002BDB26 /* RecipeDetail.swift in Sources */,
+				C8DA9B8A2C20BBE400281A54 /* RecipeDetailTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C888D7392C20098D002BDB26 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C84A1BD62BF7E73500E41A94 /* MealDBDTO */;
+			targetProxy = C888D7382C20098D002BDB26 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		C84A1BE42BF7E73600E41A94 /* Debug */ = {
@@ -325,12 +415,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = MealDBDTO/MealDBDTO.entitlements;
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"MealDBDTO/Preview Content\"";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 6PJ2FAZ4V9;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -356,12 +448,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = MealDBDTO/MealDBDTO.entitlements;
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"MealDBDTO/Preview Content\"";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 6PJ2FAZ4V9;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -378,6 +472,44 @@
 				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		C888D73B2C20098D002BDB26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6PJ2FAZ4V9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.random.MealDBDTOTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MealDBDTO.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MealDBDTO";
+			};
+			name = Debug;
+		};
+		C888D73C2C20098D002BDB26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6PJ2FAZ4V9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.random.MealDBDTOTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MealDBDTO.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MealDBDTO";
 			};
 			name = Release;
 		};
@@ -398,6 +530,15 @@
 			buildConfigurations = (
 				C84A1BE72BF7E73600E41A94 /* Debug */,
 				C84A1BE82BF7E73600E41A94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C888D73A2C20098D002BDB26 /* Build configuration list for PBXNativeTarget "MealDBDTOTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C888D73B2C20098D002BDB26 /* Debug */,
+				C888D73C2C20098D002BDB26 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
